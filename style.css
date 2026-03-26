@@ -40,7 +40,7 @@ body {
     margin: 0;
     font-family: var(--main-font);
     color: var(--text-color);
-    background: url("images/Matrix-background.gif") no-repeat center center fixed;
+    background: url("images/matrix-background.gif") no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -821,6 +821,10 @@ body.sidebar-open {
     white-space: nowrap;
     border-right: 3px solid var(--primary-color);
     text-shadow: 0 0 8px rgba(0, 204, 51, 0.6);
+}
+
+.certificate-item img {
+    max-width: 70%;
 }
 
 .certificates-viewer {
